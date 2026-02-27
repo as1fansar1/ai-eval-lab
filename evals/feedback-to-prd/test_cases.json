@@ -1,1 +1,112 @@
-[]
+[
+  {
+    "case_id": "FPRD-001",
+    "input": "Users keep saying onboarding is confusing. They drop off after connecting data sources because the setup steps are unclear.",
+    "context": "B2B analytics SaaS for PMs",
+    "expected": {
+      "themes": ["onboarding friction", "setup clarity", "activation drop-off"],
+      "opportunities": ["guided setup wizard", "in-product checklist", "contextual help"],
+      "prd_sections": ["problem", "target_user", "goals", "success_metrics"]
+    },
+    "difficulty": "easy"
+  },
+  {
+    "case_id": "FPRD-002",
+    "input": "SMB customers want lower pricing tiers but enterprise customers ask for SSO and audit logs. Sales says we're losing both segments.",
+    "context": "Workflow automation platform",
+    "expected": {
+      "themes": ["segmentation conflict", "pricing mismatch", "enterprise requirements"],
+      "opportunities": ["tiered packaging", "enterprise add-on", "segmented roadmap"],
+      "prd_sections": ["problem", "user_segments", "non_goals", "risks"]
+    },
+    "difficulty": "medium"
+  },
+  {
+    "case_id": "FPRD-003",
+    "input": "Support tickets spike every Monday about failed CSV imports. Error messages are generic and people don't know how to fix formatting.",
+    "context": "Ops reporting tool",
+    "expected": {
+      "themes": ["import reliability", "error clarity", "support burden"],
+      "opportunities": ["pre-import validator", "specific error messaging", "format templates"],
+      "prd_sections": ["problem", "user_stories", "success_metrics", "experiments"]
+    },
+    "difficulty": "easy"
+  },
+  {
+    "case_id": "FPRD-004",
+    "input": "Power users ask for advanced filters and saved views. New users say the dashboard already feels overwhelming.",
+    "context": "Customer success platform",
+    "expected": {
+      "themes": ["power-vs-novice tension", "dashboard complexity", "personalization needs"],
+      "opportunities": ["progressive disclosure", "saved views", "role-based defaults"],
+      "prd_sections": ["problem", "personas", "requirements", "tradeoffs"]
+    },
+    "difficulty": "medium"
+  },
+  {
+    "case_id": "FPRD-005",
+    "input": "People love the AI summary, but complain it sometimes invents action items not in the call transcript.",
+    "context": "Meeting intelligence SaaS",
+    "expected": {
+      "themes": ["hallucination risk", "trust erosion", "AI output quality"],
+      "opportunities": ["citation requirement", "confidence flags", "human review mode"],
+      "prd_sections": ["problem", "quality_guardrails", "acceptance_criteria", "risks"]
+    },
+    "difficulty": "hard"
+  },
+  {
+    "case_id": "FPRD-006",
+    "input": "Mobile users report the approval workflow is too slow. They have to open multiple screens to approve one request.",
+    "context": "Expense management SaaS",
+    "expected": {
+      "themes": ["mobile friction", "workflow latency", "approval UX"],
+      "opportunities": ["one-tap approval", "mobile quick actions", "batched approvals"],
+      "prd_sections": ["problem", "workflow_map", "goals", "kpis"]
+    },
+    "difficulty": "easy"
+  },
+  {
+    "case_id": "FPRD-007",
+    "input": "Customers are unsure whether our forecasts can be trusted. They ask how predictions are generated and what data was used.",
+    "context": "Revenue forecasting product",
+    "expected": {
+      "themes": ["explainability gap", "trust deficit", "model transparency"],
+      "opportunities": ["forecast rationale panel", "data lineage view", "confidence intervals"],
+      "prd_sections": ["problem", "requirements", "success_metrics", "open_questions"]
+    },
+    "difficulty": "hard"
+  },
+  {
+    "case_id": "FPRD-008",
+    "input": "We get frequent churn reasons like 'no ROI visible quickly'. Users don’t see outcomes in the first week.",
+    "context": "Sales enablement SaaS",
+    "expected": {
+      "themes": ["time-to-value", "early retention risk", "activation outcomes"],
+      "opportunities": ["first-week wins dashboard", "guided milestone plan", "ROI quickstart"],
+      "prd_sections": ["problem", "goals", "north_star_metric", "experiments"]
+    },
+    "difficulty": "medium"
+  },
+  {
+    "case_id": "FPRD-009",
+    "input": "Admins ask for stronger permission controls. Team members accidentally see data they shouldn’t.",
+    "context": "Multi-tenant SaaS platform",
+    "expected": {
+      "themes": ["access control", "security governance", "admin pain"],
+      "opportunities": ["granular RBAC", "permission presets", "access audit logs"],
+      "prd_sections": ["problem", "security_requirements", "non_functional", "risks"]
+    },
+    "difficulty": "medium"
+  },
+  {
+    "case_id": "FPRD-010",
+    "input": "Our integration with CRM breaks when custom fields are renamed. Users notice only after reports are wrong.",
+    "context": "RevOps integration layer",
+    "expected": {
+      "themes": ["integration fragility", "silent data errors", "monitoring gaps"],
+      "opportunities": ["schema change detection", "integration health alerts", "field mapping recovery"],
+      "prd_sections": ["problem", "technical_requirements", "alerting", "rollback_plan"]
+    },
+    "difficulty": "hard"
+  }
+]

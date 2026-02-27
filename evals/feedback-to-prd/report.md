@@ -1,7 +1,7 @@
 # Eval Report — feedback-to-prd
 
 ## Summary
-Initial dataset now includes 10 realistic PM-grade test cases across onboarding, pricing/segmentation, reliability, AI trust, security, retention, and integrations.
+Initial dataset now includes 10 PM test cases across onboarding, pricing/segmentation, reliability, AI trust, security, retention, and integrations.
 
 ## Failure Patterns to Track
 1. Over-generic themes not tied to input evidence

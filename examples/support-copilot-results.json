@@ -1,0 +1,40 @@
+{
+  "suite": "support-copilot-v1",
+  "timestamp": "2026-05-10T14:22:00Z",
+  "total_cases": 48,
+  "pass_rate": 0.8125,
+  "avg_latency_ms": 1842,
+  "avg_cost_usd": 0.00214,
+  "cases": [
+    {
+      "id": "case-001",
+      "input": "Customer asks how to reset their password but their email isn't on file.",
+      "expected_intent": "auth_recovery_no_email",
+      "predicted_intent": "auth_recovery_no_email",
+      "response_quality_score": 0.92,
+      "latency_ms": 1612,
+      "cost_usd": 0.00198,
+      "passed": true
+    },
+    {
+      "id": "case-002",
+      "input": "Customer wants a refund for a charge from 11 months ago, outside the 90-day window.",
+      "expected_intent": "refund_out_of_policy",
+      "predicted_intent": "refund_out_of_policy",
+      "response_quality_score": 0.78,
+      "latency_ms": 2041,
+      "cost_usd": 0.00231,
+      "passed": true
+    },
+    {
+      "id": "case-003",
+      "input": "Customer reports the mobile app crashes after the latest update on Android 14.",
+      "expected_intent": "bug_report_mobile",
+      "predicted_intent": "general_inquiry",
+      "response_quality_score": 0.41,
+      "latency_ms": 1873,
+      "cost_usd": 0.00213,
+      "passed": false
+    }
+  ]
+}
